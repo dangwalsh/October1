@@ -14,14 +14,14 @@ double fToC (double degF = 32.0);
 
 int main()
 {
-    double farenheit;
-    cout << "Enter a temperature in Farenheit: ";
-    cin >> farenheit;
+    double fahrenheit;
+    cout << "Enter a temperature in Fahrenheit: ";
+    cin >> fahrenheit;
     
     double centigrade;
-    centigrade = fToC(farenheit);
+    centigrade = fToC(fahrenheit);
     
-    cout << farenheit << "F is " << centigrade << "C\n";
+    cout << fahrenheit << "F is " << centigrade << "C\n";
     
     return EXIT_SUCCESS;
 }
